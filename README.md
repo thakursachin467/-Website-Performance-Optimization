@@ -8,7 +8,7 @@ As web applications become increasingly interactive and accessed on a variety of
 What will I learn?
 I learned about the critical rendering path, the process by which the browser receives HTML, CSS and JavaScript and the required processing to turn them into rendered pixels. You’ll also start to think of your work as a continuously running web application that requires a consistent framerate to produce the most enjoyable user experience.
 
-### [Click HERE] ( https://thakursachin467.github.io/-Website-Performance-Optimization/) TO SEE THE WEBSITE MADE IN THIS PROJECT.
+[Click HERE TO SEE THE WEBSITE MADE IN THIS PROJECT.]  ( https://thakursachin467.github.io/-Website-Performance-Optimization/)
 
 
 
