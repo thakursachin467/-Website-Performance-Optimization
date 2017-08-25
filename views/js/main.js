@@ -413,7 +413,7 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  var movingPizzas2=getElementById("movingPizzas1");
+  var movingPizzas2= document.getElementById("movingPizzas1");
   var img="images/pizza.png";
   var pizza_per_page=(screen.height/s)*cols;
   for (var i = 0; i <pizza_per_page; i++) {
@@ -425,7 +425,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (cal * s) + 'px';
-    document.movingPizzas2.appendChild(elem);
+    movingPizzas2.appendChild(elem);
   }
   updatePositions();
 });
