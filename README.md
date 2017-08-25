@@ -17,7 +17,7 @@ I learned about the critical rendering path, the process by which the browser re
 * [Click HERE TO SEE THE WEBSITE MADE IN THIS PROJECT](https://thakursachin467.github.io/-Website-Performance-Optimization/)
 
 
-####How to run this project
+#### How to run this project
 * to run this application you have to open index.html in your browser or clicl on the link provided above.from there you will can redirect to any pages made in this project by simply clicking on this links.
 
 * The various optimization made to the index.html and js/main.js and pizza.html are minifying the css,js,images files to reduce the file size and reduce the number of bites.
