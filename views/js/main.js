@@ -334,7 +334,7 @@ var resizePizzas = function(size) {
  var select;
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
-    select=document.getElementsByClassName('randomPizzaContainer');
+    select=document.getElementsByClassName('randomPizzaContainer'); //here we store the ElementByClassName in select variable so that we don't have to search element each time the loop is run(line 341).it will take more rendering time as the loop searches for element each time it's run(line 341)
       var dx = determineDx(select[0], size);
       var newwidth = (select[0].offsetWidth + dx) + 'px';
        for (var i = 0; i < select.length; i++) {
@@ -413,9 +413,9 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  var movingPizzas2= document.getElementById("movingPizzas1");
-  var img="images/pizza.png";
-  var pizza_per_page=(screen.height/s)*cols;
+  var movingPizzas2= document.getElementById("movingPizzas1"); //if we define this in loop (line 428) it will search elementById every time the loop is run.causing more rendering time
+  var img="images/pizza.png"; //stores the image location to this variable.in loop(line 423) it was called multiple time causing more rendering time as it has to search  img/pizza.jpg every time loop is run.
+  var pizza_per_page=(screen.height/s)*cols; 
   for (var i = 0; i <pizza_per_page; i++) {
     var cal=Math.floor(i / cols) ;
     var elem = document.createElement('img');
